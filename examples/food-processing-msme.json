@@ -1,0 +1,39 @@
+{
+  "business_name": "Illustrative small food-processing business",
+  "scenario_multipliers": {
+    "heat": 1.15,
+    "flood": 1.1
+  },
+  "hazards": [
+    {
+      "name": "heat",
+      "likelihood": 4,
+      "intensity": 4,
+      "exposure": 5,
+      "sensitivity": 4,
+      "adaptive_capacity": 2,
+      "weight": 1.2,
+      "notes": "Example ratings only; replace with a documented local assessment."
+    },
+    {
+      "name": "flood",
+      "likelihood": 3,
+      "intensity": 4,
+      "exposure": 3,
+      "sensitivity": 5,
+      "adaptive_capacity": 2,
+      "weight": 1.0,
+      "notes": "Example ratings only; no site-specific flood data is included."
+    },
+    {
+      "name": "power_outage",
+      "likelihood": 4,
+      "intensity": 3,
+      "exposure": 4,
+      "sensitivity": 4,
+      "adaptive_capacity": 3,
+      "weight": 0.9,
+      "notes": "Illustrative operational-continuity scenario."
+    }
+  ]
+}
